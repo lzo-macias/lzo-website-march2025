@@ -20,7 +20,7 @@ function AboutMe() {
           and concurrently interned with several other tech companies.  Most notably 
           <a href='https://www.linkedin.com/company/wowpayments/' 
           className='aboutmelinks' target="_blank" rel="noopener noreferrer"> Wow Payments </a> 
-          where I spent 4 months selling their POS product to NYC business owners. Upon graduation I became certified Financial Advisor at 
+          where I spent 4 months selling their POS product to NYC business owners. Upon graduation I became a certified Financial Advisor at 
           <a href='https://www.masterworks.com/' 
           className='aboutmelinks' target="_blank" rel="noopener noreferrer"> Masterworks </a> 
           and raised ~$150,000(1 million in LFV) in investment for a securitized art product on a 6-month retainer.
