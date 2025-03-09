@@ -21,7 +21,7 @@ function App() {
     <div className='main_container'>
       <div className = 'bio_and_othersections'>
         <Bio/>
-        <div className='othersections'>
+        <div className='othersections' id="scroll-container">
           <AboutMe/>
           <Projects/>
           <Experience/>

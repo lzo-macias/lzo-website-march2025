@@ -2,8 +2,6 @@ import React from 'react'
 import { Link as ScrollLink } from 'react-scroll'; // ✅ Import for scrolling
 import '../styling/Bio.css';
 
-
-
 function Bio() {
   return (
     <div className='bio'>
@@ -12,22 +10,43 @@ function Bio() {
         <p>I combine tech and business, using my technical knowledge to further business interests.</p>
         <div>
             <nav>
-            <div className="nav-item">
+                <div className="nav-item">
                     <div className="design-line"></div>
-                    <ScrollLink to="about" smooth={true} duration={500}>ABOUT</ScrollLink>
+                    <ScrollLink to="About" smooth={true} duration={500} offset={-50}>ABOUT</ScrollLink>
                 </div>
                 <div className="nav-item">
                     <div className="design-line"></div>
-                    <ScrollLink to="sales" smooth={true} duration={500}>PROJECTS</ScrollLink>
+                    <ScrollLink to="Projects" smooth={true} duration={500} offset={-50}>PROJECTS</ScrollLink>
                 </div>
                 <div className="nav-item">
                     <div className="design-line"></div>
-                    <ScrollLink to="projects" smooth={true} duration={500}>EXPERIENCE</ScrollLink>
+                    <ScrollLink to="Experience" smooth={true} duration={500} offset={-50}>EXPERIENCE</ScrollLink>
                 </div>
             </nav>
             <div className='socials'>
-                <img className="social-icon" src="../public/img/github.png" alt="" />
-                <img className="social-icon" src="../public/img/linkedin.png" alt="" />
+                <a 
+                    href="https://github.com/lzo-macias" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <img 
+                     className="social-icon" 
+                        src="../public/img/github.png" 
+                        alt="GitHub Profile" 
+                    />
+                </a>
+
+                <a 
+                 href="https://www.linkedin.com/in/lorenzomacias/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <img 
+                        className="social-icon" 
+                        src="../public/img/linkedin.png" 
+                        alt="LinkedIn Profile" 
+                    />
+                </a>
             </div>
         </div>
     </div>

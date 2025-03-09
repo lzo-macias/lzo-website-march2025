@@ -1,20 +1,43 @@
 import React from 'react'
+import { Element } from 'react-scroll'; // ✅ Import Element for scroll targeting
 import '../styling/AboutMe.css'
-
 
 function AboutMe() {
   return (
+    <Element name="About"> {/* ✅ Added Element wrapper */}
     <div className='aboutme'>
         <h3>ABOUT</h3>
-        <p>From washing dishes to delivering complex product demos to executives, I pride myself in my diverse range of professional experience.</p>
 
-        <p>In the past 7 years I've seen opportunities in law, tech, finance and other industries. And it is this unique experience, as well as the work ethic and interpersonal skills necessary for success in these roles, that separates me from other talent. </p>
+        <p>
+          where i started: The first 5 years of my work experience I spent in kitchens, bars and catering halls. Though not as prestigious as some of my future job titles, they laid the foundation for the skills and work ethic that I would later be called for.
+        </p>
 
-        <p>Though my past positions have leaned heavily on my skills as a salesperson, my studies in college  and at Full-Stack Academy have armed me with a vast technical understanding.  I have experience guiding teams through Full-Stack development projects such as with Shenanigram, and building e-commerce websites such as Book Buddy.  I feel most strongly about building sites that not only present well visually but follow coding principles for secure design and sustainability.  I enjoy building algorthims and problems solving and have the most experience with the PERN tech stach</p>
+        <p>
+          where i went: In <a href='https://zicklin.baruch.cuny.edu/' 
+          className='aboutmelinks' target="_blank" rel="noopener noreferrer">college</a> I studied Computer Information Systems and Marketing. I got a job as a sales rep at the small corporate firm 
+          <a href='https://thelawyerjames.com' 
+          className='aboutmelinks' target="_blank" rel="noopener noreferrer"> The Lawyer James </a> 
+          and concurrently interned with several other tech companies.  Most notably 
+          <a href='https://www.linkedin.com/company/wowpayments/' 
+          className='aboutmelinks' target="_blank" rel="noopener noreferrer"> Wow Payments </a> 
+          where I spent 4 months selling their POS product to NYC business owners. Upon graduation I became certified Financial Advisor at 
+          <a href='https://www.masterworks.com/' 
+          className='aboutmelinks' target="_blank" rel="noopener noreferrer"> Masterworks </a> 
+          and raised ~$150,000(1 million in LFV) in investment for a securitized art product on a 6-month retainer.
+        </p>
 
-        <p>During my marketing and sales roles with The Lawyer James and Masterworks, I proved my ability to identify product use cases and close business with c-suite executves.  I am equally passionate about both developing on the product side and business/building client relationships</p>
+        <p>
+          where i am today: In March of 2025 I graduated the Full-Stack Web Development Bootcamp, where I developed a demo online bookstore called 
+          <a href='https://github.com/lzo-macias/CareerSimulationBookBuddy.git' 
+          className='aboutmelinks' target="_blank" rel="noopener noreferrer"> BookBuddy </a> 
+          (frontend working with API) and was team lead on the new social media app 
+          <a href='https://shenanigram.netlify.app/' 
+          className='aboutmelinks' target="_blank" rel="noopener noreferrer"> Shenanigram </a> 
+          (fullstack). I am most passionate about building projects that not only present well visually but follow development principles for security and organization. For fun I solve puzzles on AlgoExpert, cook, and on occasion maybe even a nightclub if my friends put me up to it.
+        </p>
     </div>
-  )
+    </Element>
+  );
 }
 
 export default AboutMe

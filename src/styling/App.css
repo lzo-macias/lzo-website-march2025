@@ -24,6 +24,9 @@
     );
     z-index: -1; 
 }
+/* html {
+    scroll-behavior: smooth;
+} */
 .main_container {
     display: flex;
     min-height: 100vh;       /* ✅ Change to `min-height` for scrollable content */
@@ -72,3 +75,6 @@
     }
 }
 
+@media (min-width: 1440px) {
+
+}

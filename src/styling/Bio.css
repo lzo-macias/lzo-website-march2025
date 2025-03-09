@@ -9,9 +9,10 @@
     /* max-width: 50vw; */
     position: absolute;
     padding-left: 5vw;
+    margin-bottom: 1vh;
 }
 .bio {
-    width: 40vw;         /* Fixed width for the bio */
+    /* width: 40vw;         */
     position: fixed;     /* Stays fixed */
     top: 0;              /* Aligns to the top */
     right: 100;            /* Bio stays on the right side */
@@ -35,7 +36,7 @@
 
 .bio p {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(206,216,238,255);
+    color: rgba(146,162,182,255);
     font-size: 19px;
     max-width: 515px;
 }
@@ -87,6 +88,7 @@
     display: flex;
     gap: 15px;       /* Ensures spacing between icons */
     margin-top: 200px; /* Adds space between socials and nav */
+    margin-bottom: 50px;
 }
 
 .social-icon {
@@ -123,5 +125,14 @@
 
     .othersections {
         width: 100%; 
+    }
+}
+
+@media (min-height: 900px) {
+    /* .nav {
+        padding-top: 1450px;
+    } */
+    .socials {
+        margin-top: 400px;
     }
 }

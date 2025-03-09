@@ -1,3 +1,6 @@
+.experienceheading {
+    display: none;
+}
 .experiencediv {
     display: flex;
     flex-direction: column;
@@ -68,7 +71,7 @@
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 14px;
-    color: #7DD3FC;  /* Soft teal for contrast */
+    color: rgb(9, 211, 211);    
 }
 .project-link {
     display: flex;
@@ -123,5 +126,13 @@
 
     .tags {
         flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 1250px) {
+    .experienceheading {
+        display: block;
+        padding: 0px;
+        margin: 0px;
     }
 }
