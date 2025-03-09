@@ -102,7 +102,7 @@ function Experience() {
       {/* CV Link */}
       <div className="project-link">
         <h3>Click to see CV <span>(detailed and 5 years of additional experience in nightlife and waiting tables)</span></h3>
-        <img className='arrow' src="../public/img/arrow.png" alt="Arrow Icon" />
+        <img className='arrow' src="/img/arrow.png" alt="Arrow Icon" />
       </div>
     </div>
     </Element>
