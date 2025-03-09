@@ -31,7 +31,7 @@ function Bio() {
                 >
                     <img 
                      className="social-icon" 
-                        src="../public/img/github.png" 
+                        src="/img/github.png" 
                         alt="GitHub Profile" 
                     />
                 </a>
@@ -43,7 +43,7 @@ function Bio() {
                 >
                     <img 
                         className="social-icon" 
-                        src="../public/img/linkedin.png" 
+                        src="/img/linkedin.png" 
                         alt="LinkedIn Profile" 
                     />
                 </a>
