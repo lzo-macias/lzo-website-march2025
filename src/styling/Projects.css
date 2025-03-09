@@ -1,0 +1,135 @@
+/* .projectcontainer {
+    
+}
+
+.projectcontainer img {
+    max-width: 100px;
+}
+.projectcontainer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(206,216,238,255);
+    font-size: 17px;
+} */
+
+.projectcontainer {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column; /* Projects stacked vertically */
+    /* gap: 30px;               */
+    padding: 30px;
+}
+
+
+/* .content {
+    display: flex;
+    align-items: center;  
+    gap: 30px;      
+}     */
+
+.text_section {
+    display: flex;
+    flex-direction: column; /* Ensures text stays stacked */
+    max-width: 400px;       /* Limits text width for balance */
+}
+
+.projectcontainer img {
+    max-width: 150px; /* Increase image size as desired */
+    height: auto;      /* Maintain aspect ratio */
+}
+
+.projectcontainer h3 {
+    font-size: 24px;  /* Larger text for the header */
+    color: #ffffff;   /* Matches your theme */
+    margin-bottom: 5px; /* Adds a small gap between header and paragraph */
+}
+
+.projectcontainer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(206,216,238,255);
+    font-size: 17px;
+    margin-top: 0; /* Prevents extra space between header and paragraph */
+}
+.Shenanigram {
+    border-radius: 12px;                    /* Smooth rounded corners */
+    padding: 20px;                          /* Adds internal spacing */
+    margin-bottom: 20px;                    /* Adds space between project sections */
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover */
+}
+
+.Shenanigram:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle light hover effect */
+    transform: scale(1.02); /* Slight scale-up effect for interactivity */
+    /* box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);  */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+    padding: 15px; 
+}
+
+.BookBuddy {
+    border-radius: 12px;                    /* Smooth rounded corners */
+    padding: 20px;                          /* Adds internal spacing */
+    margin-bottom: 20px;                    /* Adds space between project sections */
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover */
+}
+.BookBuddy:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle light hover effect */
+    transform: scale(1.02); /* Slight scale-up effect for interactivity */
+    /* box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);  */
+}
+.Shenanigram:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle light hover effect */
+    transform: scale(1.02); /* Slight scale-up effect for interactivity */
+    /* box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);  */
+}
+
+.arrow {
+    width: 50px;           /* Set a fixed width for uniform sizing */
+    height: auto;           /* Maintain aspect ratio */
+    border-radius: 8px;     /* Optional: Adds rounded corners for a softer look */
+    object-fit: cover;      /* Ensures the image fills the space nicely without stretching */
+}
+.projectcontainer {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+/* Arrow and H3 Styling */
+.project-link {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between text and arrow */
+    cursor: pointer;
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+.project-link:hover {
+    transform: scale(1.05);     /* Enlarges slightly */
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3); 
+}
+
+.project-link h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.arrow {
+    width: 30px;        /* Set arrow size */
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-link:hover .arrow {
+    transform: scale(1.2);      /* Slightly enlarges the arrow */
+    filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.5)); /* Glowing effect */
+}
+
+

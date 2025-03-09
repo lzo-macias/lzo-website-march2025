@@ -1,0 +1,74 @@
+ body {
+    background-color: rgba(15, 23, 42, 1); /* Ensure 255 (fully opaque) is set to 1 for RGBA */
+    color: #ffffff; 
+    min-height: 100dvh;  /* ✅ Dynamic viewport height for improved compatibility */
+    margin: 0; /* Prevents default spacing issues */
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent sizing */
+    position: relative; /* Important for positioning */
+    z-index: -2; 
+
+  }
+/* Cursor Glow Effect */
+.cursor-glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;           /* ✅ Fills the full content height */
+    pointer-events: none; /* Prevents interference with clicks */
+    background: radial-gradient(
+        circle 800px at var(--x, 50%) var(--y, 50%),
+        rgba(50, 50, 133, 0.3), /* Lightest in the center */
+        rgba(15, 23, 42, 0.9) 60%  /* Dark background fading out */
+    );
+    z-index: -1; 
+}
+.main_container {
+    display: flex;
+    min-height: 100vh;       /* ✅ Change to `min-height` for scrollable content */
+    position: relative;  /* Keeps `.bio` in place while allowing `.othersections` to align correctly */
+    overflow-y: auto;   /* Enables scrolling */
+
+}
+
+.bio_and_othersections {
+    display: flex;
+    width: 100%; 
+    align-items: flex-start; 
+}
+
+
+.othersections {
+    width: 50%;       /* Take up the remaining space */
+    padding: 20px;
+    box-sizing: border-box;
+
+    /* Add margin to prevent overlap with `.bio` */
+    margin-left: 50vw; /* Matches `.bio` width */
+    padding-top: 50px;
+
+}
+/* .othersections {
+    width: 60vw;         
+    display: flex;
+    flex-direction: column;
+    gap: 20px;           
+    box-sizing: border-box;
+    height: 100vh;       
+    overflow-y: auto;  
+} */
+
+/* ✅ Responsive for Small Screens */
+@media (max-width: 1250px) {
+    .bio_and_othersections {
+        flex-direction: column;
+    }
+
+    .bio, .othersections {
+        width: 100%;   /* Both sections will take full width on smaller screens */
+        margin-left: 0; /* Remove margin on smaller screens */
+
+    }
+}
+

@@ -1,0 +1,127 @@
+/* rgba(211,220,238,255) */
+
+
+.bio {
+    padding: 10vw;
+    padding-top: 5vw;
+    position: fixed;
+    top: 10px;
+    /* max-width: 50vw; */
+    position: absolute;
+    padding-left: 5vw;
+}
+.bio {
+    width: 40vw;         /* Fixed width for the bio */
+    position: fixed;     /* Stays fixed */
+    top: 0;              /* Aligns to the top */
+    right: 100;            /* Bio stays on the right side */
+    /* height: 100vh;       */
+    overflow-y: auto;    /* Bio can still scroll if content exceeds height */
+    padding: 5vw;
+    box-sizing: border-box;
+}
+
+.bio_name {
+    font-size: 45px;
+    margin: 0px;
+    color: #ffffff; 
+}
+.bio_role {
+    margin-top: 0px;
+    font-size: 25px;
+    color: #ffffff; 
+    font-style: italic;
+}
+
+.bio p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(206,216,238,255);
+    font-size: 19px;
+    max-width: 515px;
+}
+
+.bio nav {
+    display: flex;
+    flex-direction: column; /* ✅ Stacks items vertically */
+    align-items: flex-start; /* Aligns text to the left */
+    gap: 10px; /* Adds spacing between links */
+    margin-top: 20px; /* Adds space above the navigation */
+    position: relative;
+    top: 80px;
+    /* margin-left: 100px; */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.nav-item {
+    display: flex;
+    align-items: center;   /* Align line and text in the same row */
+    gap: 10px;             /* Spacing between the line and the text */
+    position: relative;
+}
+
+.design-line {
+    width: 1.5vw;            /* Default thin size */
+    height: 1px;          /* Same height as the text */
+    background-color: rgba(206,216,238,255);
+    transition: height 0.3s ease; /* Smooth animation */
+}
+  
+.bio nav a {
+    text-decoration: none; /* Removes underlines */
+    color: rgba(206,216,238,255);
+    padding: 8px 0; /* Adds spacing between links */
+    font-size: 14px; /* Adjust font size for visibility */
+    cursor: pointer; /* Ensures links are clickable */
+  }
+  
+.bio nav a:hover {
+    transform: translateX(5px); /* Subtle animation on hover */
+    color: #ffffff; 
+    transition: transform 0.3s ease;
+  }
+.nav-item:hover .design-line {
+    width: 3vw;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;       /* Ensures spacing between icons */
+    margin-top: 200px; /* Adds space between socials and nav */
+}
+
+.social-icon {
+    width: 40px;     /* Ensures all icons are the same width */
+    height: 40px;    /* Ensures uniform height */
+    object-fit: contain; /* Maintains icon aspect ratio */
+    filter: brightness(0.8) contrast(1.2); /* Matches your color theme */
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.5); /* Adds a subtle zoom effect on hover */
+}
+
+@media (max-width: 1250px) {
+    .bio {
+        position: relative; /* Removes fixed position for smaller screens */
+        width: 100%; 
+        /* padding-bottom: 0px; */
+    }
+
+    .bio nav {
+        display: none;         /* ✅ Hides the nav */
+    }
+
+    .socials {
+        display: flex;         /* ✅ Show socials when nav disappears */
+        margin-top: 40px;
+    }
+
+    .bio_and_othersections {
+        flex-direction: column; /* ✅ Ensures sections stack correctly */
+    }
+
+    .othersections {
+        width: 100%; 
+    }
+}

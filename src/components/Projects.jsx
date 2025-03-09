@@ -1,0 +1,36 @@
+import React from 'react'
+import "../styling/Projects.css"
+
+function Projects() {
+  return (
+    <div className='projectcontainer'>
+      <div className='Shenanigram'>
+        <div className='content'>
+        <img src="../public/img/Shenanigram.png" alt="Shenanigram App" />
+          <div className='text_section'>
+            <h3>Shenanigram</h3>
+            <p>Team lead on a new take on social media. Designed, managed, and developed with a team of 4 developers. Built with a PERN tech stack and suitable for both mobile and desktop.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className='BookBuddy'>
+        <div className='content'>
+        <img src="../public/img/BookBuddy.png" alt="BookBuddy App" />
+          <div className='text_section'>
+            <h3>BookBuddy</h3>
+            <p>Solo development project for demo online bookstore. I used a test API provided by FullStack Academy to log books purchased and available. Secure password authentication among other features. Created with the PERN tech stack.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Final Line with Arrow and H3 on the Same Line */}
+      <div className="project-link">
+        <h3>Click to see full project archive</h3>
+        <img className='arrow' src="../public/img/arrow.png" alt="Arrow Icon" />
+      </div>
+    </div>
+  )
+}
+
+export default Projects
