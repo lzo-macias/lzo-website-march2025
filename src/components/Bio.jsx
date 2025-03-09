@@ -7,7 +7,7 @@ function Bio() {
     <div className='bio'>
         <h2 className='bio_name'>LORENZO MACIAS</h2>
         <h3 className='bio_role'>Full Stack Developer And Sales Architect</h3>
-        <p>I combine tech and business, using my technical knowledge to further business interests.</p>
+        <p>I combine technical knowledge and people skills to help companies solve problems.</p>
         <div>
             <nav>
                 <div className="nav-item">
