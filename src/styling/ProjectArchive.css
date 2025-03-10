@@ -1,0 +1,87 @@
+.project-archive {
+    background-color: rgba(15, 23, 42, 1); 
+    min-height: 100dvh;  
+    margin: 0; 
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+    position: relative; 
+    z-index: 0; 
+}
+
+/* Cursor Glow Effect */
+.cursor-glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(
+        circle 800px at var(--x, 50%) var(--y, 50%),
+        rgba(50, 50, 133, 0.3), 
+        rgba(15, 23, 42, 0.9) 60%  
+    );
+    z-index: -1; 
+}
+
+.project-archive h2 {
+    font-size: 42px;
+    margin-bottom: 2rem;
+    color: #e2e8f0; 
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project-header, .project-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 3fr 1.5fr; /* Corrected spacing */
+    gap: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+    align-items: center;
+}
+
+.project-header {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(211,220,238,255);
+    padding-bottom: 10px;
+}
+
+.project-title {
+    color: rgba(226,232,240,255);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tech-tag {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #e2e8f0;
+}
+
+.project-row a {
+    max-width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; /* Ensures long links are truncated */
+    color: #4ADE80;
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}

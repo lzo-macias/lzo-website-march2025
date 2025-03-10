@@ -1,12 +1,15 @@
-import React from 'react'
-import { Element } from 'react-scroll'; // ✅ Import Element
-import "../styling/Projects.css"
+import React from 'react';
+import { Element } from 'react-scroll';  // ✅ Import for scrolling
+import { Link } from 'react-router-dom'; // ✅ Import for internal navigation
+import "../styling/Projects.css";
 
 function Projects() {
   return (
     <Element name="Projects"> {/* ✅ Added Element wrapper */}
     <div className='projectcontainer'>
       <h3 className='projectsheading'>PROJECTS</h3>
+
+      {/* Shenanigram External Link */}
       <a 
         href="https://shenanigram.netlify.app/" 
         className='projectLink' 
@@ -24,6 +27,7 @@ function Projects() {
         </div>
       </a>
 
+      {/* BookBuddy External Link */}
       <a 
         href="https://github.com/lzo-macias/CareerSimulationBookBuddy.git" 
         className='projectLink' 
@@ -41,14 +45,14 @@ function Projects() {
         </div>
       </a>
 
-      {/* Final Line with Arrow and H3 on the Same Line */}
-      <div className="project-link">
+      {/* ✅ Internal Link to Project Archive */}
+      <Link to="/projectarchive" className="project-link">
         <h3>Click to see full project archive</h3>
-        <img className='arrow' src="img/arrow.png" alt="Arrow Icon" />
-      </div>
+        <img className='arrow' src="/img/arrow.png" alt="Arrow Icon" />
+      </Link>
     </div>
     </Element>
   );
 }
 
-export default Projects
+export default Projects;

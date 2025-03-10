@@ -100,10 +100,12 @@ function Experience() {
       </a>
 
       {/* CV Link */}
+    <a href="/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer">
       <div className="project-link">
         <h3>Click to see CV <span>(detailed and 5 years of additional experience in nightlife and waiting tables)</span></h3>
         <img className='arrow' src="/img/arrow.png" alt="Arrow Icon" />
       </div>
+    </a>
     </div>
     </Element>
   );
