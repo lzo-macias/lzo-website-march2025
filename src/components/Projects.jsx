@@ -9,6 +9,24 @@ function Projects() {
     <div className='projectcontainer'>
       <h3 className='projectsheading'>PROJECTS</h3>
 
+{/* CoolPeople External Link */}
+    <a 
+        href="https://coolpeoplenyc.netlify.app/" 
+        className='projectLink' 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        <div className='CoolPeople'>
+          <div className='content'>
+            <img src="/img/CoolPeople.png" alt="CoolPeople App" />
+            <div className='text_section'>
+              <h3>CoolPeople</h3>
+              <p>Tracker for local NYC politics, enter your address and see your ballot for 2025, ai stance analysis and candidate scoring, sign up for notifications, registration, and on App Store drop</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
       {/* Shenanigram External Link */}
       <a 
         href="https://shenanigram.netlify.app/" 
@@ -28,7 +46,7 @@ function Projects() {
       </a>
 
       {/* BookBuddy External Link */}
-      <a 
+      {/* <a 
         href="https://github.com/lzo-macias/CareerSimulationBookBuddy.git" 
         className='projectLink' 
         target="_blank" 
@@ -43,7 +61,7 @@ function Projects() {
             </div>
           </div>
         </div>
-      </a>
+      </a> */}
 
       {/* ✅ Internal Link to Project Archive */}
       <Link to="/projectarchive" className="project-link">

@@ -5,6 +5,13 @@ const ProjectArchive = () => {
   const projects = [
     {
       year: "2025",
+      project: "CoolPeople",
+      madeAt: "CoolPeople",
+      builtWith: ["Node.js", "React", "CSS", "Python", "Javascript", "OpenAiAPI", "PostgreSQL", "Express", "Tailwind"],
+      link: "https://coolpeoplenyc.netlify.app/"
+    },
+    {
+      year: "2025",
       project: "Shenanigram",
       madeAt: "Fullstack Academy",
       builtWith: ["Node.js", "React", "CSS", "PostgreSQL", "Express", "Tailwind"],

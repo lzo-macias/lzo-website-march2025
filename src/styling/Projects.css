@@ -46,12 +46,21 @@
     border: 1px solid rgb(9, 211, 211); 
 }
 
+.CoolPeople img {
+    border: 1px solid rgb(9, 211, 211); 
+}
+
 .Shenanigram h3 {
     font-size: 24px;  /* Larger text for the header */
     color: #ffffff;   /* Matches your theme */
     margin-bottom: 5px; /* Adds a small gap between header and paragraph */
 }
 .BookBuddy h3{
+    font-size: 24px;  /* Larger text for the header */
+    color: #ffffff;   /* Matches your theme */
+    margin-bottom: 5px; /* Adds a small gap between header and paragraph */
+}
+.CoolPeople h3{
     font-size: 24px;  /* Larger text for the header */
     color: #ffffff;   /* Matches your theme */
     margin-bottom: 5px; /* Adds a small gap between header and paragraph */
@@ -76,6 +85,20 @@
 }
 
 .Shenanigram:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle light hover effect */
+    transform: scale(1.02); /* Slight scale-up effect for interactivity */
+    /* box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);  */
+}
+
+.CoolPeople {
+    border-radius: 12px;                    /* Smooth rounded corners */
+    padding: 20px;                          /* Adds internal spacing */
+    margin-bottom: 20px;                    /* Adds space between project sections */
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover */
+}
+
+.CoolPeople:hover {
     background-color: rgba(255, 255, 255, 0.05); /* Subtle light hover effect */
     transform: scale(1.02); /* Slight scale-up effect for interactivity */
     /* box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);  */
