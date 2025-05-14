@@ -39,7 +39,7 @@ function Projects() {
             <img src="/img/Shenanigram.png" alt="Shenanigram App" />
             <div className='text_section'>
               <h3>Shenanigram</h3>
-              <p>Team lead on a new take on social media. Designed, managed, and developed with a team of 4 developers. Built with a PERN tech stack and suitable for both mobile and desktop.</p>
+              <p>Team lead on a new take on social media. Designed, managed, and developed with a team of 4 developers. Built with a PERN tech stack and suitable desktop.</p>
             </div>
           </div>
         </div>
