@@ -19,7 +19,7 @@ function Experience() {
             <div className='date'>2024 6 month retainer</div>
             <div className='text_section'>
               <h3>Masterworks <span className='position'>• Financial Advisor</span></h3>
-              <p>Called rich people and sold them fractional investment in blue-chip artworks by artists like Picasso and Monet. Resulted in ~$150,000 in investment and an estimated ~$1,000,000 in LFV for Masterworks. Top performer in cohort of advisors.</p>
+              <p>Called rich people and sold them fractional investment in blue-chip artworks by artists like Picasso and Monet. Resulted in ~200,000 in investment and an estimated ~$1,000,000 in LFV for Masterworks. Top performer in cohort of advisors.</p>
               <div className='tags'>
                 <span>Financial Advisor</span>
                 <span>Outbound Sales</span>
@@ -42,7 +42,7 @@ function Experience() {
             <div className='date'>2022-2024</div>
             <div className='text_section'>
               <h3>The Lawyer James <span className='position'>• Sales Representative</span></h3>
-              <p>Called business owners and real estate agents to grow and maintain the book of business at The Lawyer James. My two years at the firm resulted in upwards of $600,000 in closed business. I also implemented a review and referral program driving new business.</p>
+              <p>Called business owners and real estate agents to grow and maintain the book of business at The Lawyer James. My two years at the firm resulted in upwards of $2,000,000 in additional revenue. I also implemented a review and referral program driving new business.</p>
               <div className='tags'>
                 <span>Corporate Law</span>
                 <span>Sales</span>
