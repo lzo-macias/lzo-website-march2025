@@ -31,7 +31,7 @@ function AboutMe() {
           <a href='https://shenanigram.netlify.app/' 
           className='aboutmelinks' target="_blank" rel="noopener noreferrer"> Shenanigram </a> 
           (fullstack).  And am now presently building            <a href='https://coolpeoplenyc.netlify.app/' 
-          className='aboutmelinks' target="_blank" rel="noopener noreferrer"> CoolPeople </a> , a civic voting tool which uses scrapers and Ai to track local politics in NYC. I am most passionate when I get to combine my knack for client managment and people skills with my technical expertise. 
+          className='aboutmelinks' target="_blank" rel="noopener noreferrer"> CoolPeople </a>, a civic voting tool which uses scrapers and Ai to track local politics in NYC. I am most passionate when I get to combine my knack for client managment and people skills with my technical expertise. 
         </p>
     </div>
     </Element>
