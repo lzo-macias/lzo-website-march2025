@@ -20,14 +20,14 @@ function AboutMe() {
           closing 2M+ dollars in new business at 150% of target.  I automated outreach and implemented a referral and review program, building a pipeline from scratch and managing the full sales cycle. I also concurrently interned as a Solutions Engineer at 
           <a href='https://www.linkedin.com/company/wowpayments/' 
           className='aboutmelinks' target="_blank" rel="noopener noreferrer"> Wow Payments </a> 
-          where I spent two months selling their POS product to NYC business owners, generating ~$3,000 in monthly recurring revenue and connecting POS's with external API's. Upon graduation I became a certified Financial Advisor and account manager at 
+          where I spent two months selling their POS product to NYC business owners, generating ~$3,000 in monthly recurring revenue and connecting POS systems with external API's. Upon graduation I became a certified Financial Advisor and Account Manager at 
           <a href='https://www.masterworks.com/' 
           className='aboutmelinks' target="_blank" rel="noopener noreferrer"> Masterworks </a> 
-          where I raised 1M+ in lifetime value for Masterworks and $200,000 in day one investment onboarding for a complex alternative investment platform at 125% of target.
+          where I raised 1M+ in lifetime value for Masterworks and $200,000 in day one investment, onboarding for a complex alternative investment platform at 125% of target.
         </p>
 
         <p>
-          where i am today: In March of 2025 I graduated from the Full-Stack Web Development Bootcamp, where I took time to hone my technical proficiency as a developer and built teh social app 
+          where i am today: In March of 2025 I graduated from the Full-Stack Web Development Bootcamp, where I took time to hone my technical proficiency as a developer and built the social app 
           <a href='https://shenanigram.netlify.app/' 
           className='aboutmelinks' target="_blank" rel="noopener noreferrer"> Shenanigram </a> 
           (full-stack).  And am now presently CEO and founder of           <a href='https://coolpeoplenyc.netlify.app/' 
