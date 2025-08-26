@@ -18,7 +18,7 @@ function Experience() {
           <div className='content'>
             <div className='date'>2024 6 month retainer</div>
             <div className='text_section'>
-              <h3>Masterworks <span className='position'>• Financial Advisor</span></h3>
+              <h3>Masterworks <span className='position'>• Account Manager</span></h3>
               <p>Called rich people and sold them fractional investment in blue-chip artworks by artists like Picasso and Monet. Explained a complicated technical platform for alternative investing and offered customer specific investment solutions on the platform.  Resulted in ~$200,000 in investment and an estimated ~$1,000,000 in LFV for Masterworks. Top performer in cohort of 20 advisors.</p>
               <div className='tags'>
                 <span>Financial Advisor</span>
@@ -42,7 +42,7 @@ function Experience() {
           <div className='content'>
             <div className='date'>2022-2024</div>
             <div className='text_section'>
-              <h3>The Lawyer James <span className='position'>• Sales Representative</span></h3>
+              <h3>The Lawyer James <span className='position'>• Customer Success Manager</span></h3>
               <p>Called business owners and real estate agents to grow and maintain the 150+ SMB accounts at The Lawyer James. My two years at the firm resulted in upwards of $2M+ in new business at the company (150% of target) I also automated outreach and implemented a review and referral program driving 100+ 5 star Google reviews and improving SEO performance by 25%.</p>
               <div className='tags'>
                 <span>Corporate Law</span>
@@ -91,7 +91,7 @@ function Experience() {
           <div className='content'>
             <div className='date'>2023 two month retainer</div>
             <div className='text_section'>
-              <h3>Wow Payments <span className='position'>• Sales Representative</span></h3>
+              <h3>Wow Payments <span className='position'>• Solutions Engineer</span></h3>
               <p>Sold Point-of-sale payment software systems to a large portfolio of Spanish and English speaking B2B prospects resulting in 4 closed deals generating ~$3000 of dollars in monthly recurring revenue. Managed lead generation, qualification, nurturing, and closes for a geographic sales territory spanning 15 NYC square miles.  And acted as a technical liaison, communicating API integration needs between clients and the developer team to enhance onboarding</p>
               <div className='tags'>
                 <span>Spanish</span>
