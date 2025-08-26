@@ -89,7 +89,7 @@ function Experience() {
       >
         <div className='WowPayments'>
           <div className='content'>
-            <div className='date'>2023 four month retainer</div>
+            <div className='date'>2023 two month retainer</div>
             <div className='text_section'>
               <h3>Wow Payments <span className='position'>• Sales Representative</span></h3>
               <p>Sold Point-of-sale payment software systems to a large portfolio of Spanish and English speaking B2B prospects resulting in 4 closed deals generating ~$3000 of dollars in monthly recurring revenue. Managed lead generation, qualification, nurturing, and closes for a geographic sales territory spanning 15 NYC square miles.  And acted as a technical liaison, communicating API integration needs between clients and the developer team to enhance onboarding</p>
