@@ -17,13 +17,6 @@ const ProjectArchive = () => {
       builtWith: ["Node.js", "React", "CSS", "PostgreSQL", "Express", "Tailwind"],
       link: "https://shenanigram.netlify.app/"
     },
-    {
-      year: "2025",
-      project: "BookBuddy",
-      madeAt: "Fullstack Academy",
-      builtWith: ["React", "JWT+bcrypt", "CSS", "Tailwind"],
-      link: "https://github.com/lzo-macias/CareerSimulationBookBuddy.git"
-    },
   ];
 
   return (
