@@ -19,7 +19,7 @@ function Experience() {
             <div className='date'>2024 6 month retainer</div>
             <div className='text_section'>
               <h3>Masterworks <span className='position'>• Account Manager</span></h3>
-              <p>Called rich people and sold them fractional investment in blue-chip artworks by artists like Picasso and Monet. Explained a complicated technical platform for alternative investing and offered customer specific investment solutions on the platform.  Resulted in ~$200,000 in investment and an estimated ~$1,000,000 in LFV for Masterworks. Top performer in cohort of 20 advisors.</p>
+              <p>Called accredited investors and sold them fractional investment in blue-chip artworks by artists like Picasso and Monet. Explained a complicated technical platform for alternative investing and offered customer specific investment solutions on the platform.  Resulted in ~$200,000 in investment and an estimated ~$1,000,000 in LFV for Masterworks. Top performer in cohort of 20 advisors.</p>
               <div className='tags'>
                 <span>Financial Advisor</span>
                 <span>Outbound Sales</span>
@@ -40,10 +40,10 @@ function Experience() {
       >
         <div className='TheLawyerJames'>
           <div className='content'>
-            <div className='date'>2022-2024</div>
+            <div className='date'>2022-2025</div>
             <div className='text_section'>
               <h3>The Lawyer James <span className='position'>• Customer Success Manager</span></h3>
-              <p>Called business owners and real estate agents to grow and maintain the 150+ SMB accounts at The Lawyer James. My two years at the firm resulted in upwards of $2M+ in new business at the company (150% of target) I also automated outreach and implemented a review and referral program driving 100+ 5 star Google reviews and improving SEO performance by 25%.</p>
+              <p>Called business owners and real estate agents to grow and maintain the 150+ SMB and midmarket accounts at The Lawyer James. My two years at the firm resulted in upwards of $2M+ in new business at the company (150% of target) I also automated outreach and implemented a review and referral program driving 100+ 5 star Google reviews and improving SEO performance by 25%.</p>
               <div className='tags'>
                 <span>Corporate Law</span>
                 <span>B2B Sales</span>
