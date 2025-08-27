@@ -64,10 +64,14 @@ function Projects() {
       </a> */}
 
       {/* ✅ Internal Link to Project Archive */}
-      <Link to="/projectarchive" className="project-link">
-        <h3>Click to see full project archive</h3>
-        <img className='arrow' src="/img/arrow.png" alt="Arrow Icon" />
-      </Link>
+      <a href="/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer">
+  <div className="project-link">
+    <h3>
+      Click to see CV{" "}
+    </h3>
+    <img className="arrow" src="/img/arrow.png" alt="Arrow Icon" />
+  </div>
+</a>
     </div>
     </Element>
   );
