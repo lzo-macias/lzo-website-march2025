@@ -7,7 +7,7 @@ function Projects() {
   return (
     <Element name="Projects"> {/* ✅ Added Element wrapper */}
     <div className='projectcontainer'>
-      <h3 className='projectsheading'>PROJECTS</h3>
+      <h3 className='projectsheading'>ENTREPRENEURIAL</h3>
 
 {/* CoolPeople External Link */}
     <a 
@@ -17,6 +17,7 @@ function Projects() {
         rel="noopener noreferrer"
       >
         <div className='CoolPeople'>
+          
           <div className='content'>
             <img src="/img/CoolPeople.png" alt="CoolPeople App" />
             <div className='text_section'>

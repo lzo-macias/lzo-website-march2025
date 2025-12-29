@@ -25,8 +25,8 @@ function App() {
               <Bio />
               <div className='othersections' id="scroll-container">
                 <AboutMe />
-                <Projects />
                 <Experience />
+                <Projects />
               </div>
             </div>
           </div>
