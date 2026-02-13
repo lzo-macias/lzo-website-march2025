@@ -9,6 +9,24 @@ function Projects() {
     <div className='projectcontainer'>
       <h3 className='projectsheading'>ENTREPRENEURIAL</h3>
 
+{/* CoolPeople Corporate External Link */}
+    <a
+        href="https://coolpeoplecorporate.vercel.app/#"
+        className='projectLink'
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className='CoolPeopleCorporate'>
+          <div className='content'>
+            <img src="/img/CoolPeopleCorporate.png" alt="CoolPeople Corporate App" />
+            <div className='text_section'>
+              <h3>CoolPeople Corporate</h3>
+              <p>Political strategy firm combining grassroots organizing with data-driven intelligence to drive voter engagement, mobilize communities, and win campaigns across NYC</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
 {/* CoolPeople External Link */}
     <a 
         href="https://coolpeoplenyc.netlify.app/" 

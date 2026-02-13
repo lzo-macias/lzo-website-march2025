@@ -47,7 +47,11 @@
 }
 
 .CoolPeople img {
-    border: 1px solid rgb(9, 211, 211); 
+    border: 1px solid rgb(9, 211, 211);
+}
+
+.CoolPeopleCorporate img {
+    border: 1px solid rgb(9, 211, 211);
 }
 
 .Shenanigram h3 {
@@ -64,6 +68,11 @@
     font-size: 24px;  /* Larger text for the header */
     color: #ffffff;   /* Matches your theme */
     margin-bottom: 5px; /* Adds a small gap between header and paragraph */
+}
+.CoolPeopleCorporate h3{
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 5px;
 }
 
 .projectsheading {
@@ -102,6 +111,18 @@
     background-color: rgba(255, 255, 255, 0.05); /* Subtle light hover effect */
     transform: scale(1.02); /* Slight scale-up effect for interactivity */
     /* box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);  */
+}
+
+.CoolPeopleCorporate {
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.CoolPeopleCorporate:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: scale(1.02);
 }
 
 .content {
