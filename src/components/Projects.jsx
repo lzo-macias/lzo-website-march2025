@@ -20,7 +20,7 @@ function Projects() {
           <div className='content'>
             <img src="/img/CoolPeopleCorporate.png" alt="CoolPeople Corporate App" />
             <div className='text_section'>
-              <h3>CoolPeople Corporate</h3>
+              <h3>CoolPeopleCorporate</h3>
               <p>Political strategy firm combining grassroots organizing with data-driven intelligence to drive voter engagement, mobilize communities, and win campaigns across NYC</p>
             </div>
           </div>
